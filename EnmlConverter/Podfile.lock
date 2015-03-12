@@ -1,0 +1,16 @@
+PODS:
+  - CTidy (0.3.1)
+  - hpple (0.2.0)
+  - MWFeedParser/NSString+HTML (1.0.1)
+
+DEPENDENCIES:
+  - CTidy
+  - hpple
+  - MWFeedParser/NSString+HTML
+
+SPEC CHECKSUMS:
+  CTidy: b9586005d12def66cf4295256e9a2f49ee7dca66
+  hpple: f4eb7c21a8db83ec264e5d614ec7509e10e5adec
+  MWFeedParser: 003cbf5398e99a7f2057fbe9583054fd1b84be72
+
+COCOAPODS: 0.35.0

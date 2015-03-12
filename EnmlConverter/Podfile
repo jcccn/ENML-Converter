@@ -1,0 +1,16 @@
+# The front repo is prior if conflicted
+# CocoaPods private repo
+source 'https://github.com/jcccn/PodSpecs.git'
+# CocoaPods master repo
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios,'5.1.1'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+pod 'CTidy'
+
+pod 'MWFeedParser/NSString+HTML'
+
+pod 'hpple'

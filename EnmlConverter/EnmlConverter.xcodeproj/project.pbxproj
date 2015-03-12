@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77209EF2D330A05717F3174A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E200F9694911D5E84969F5 /* libPods.a */; };
+		908D90E11AB187930093758E /* EnmlConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 908D90E01AB187930093758E /* EnmlConverterTests.m */; };
+		908D90EE1AB18E0C0093758E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 908D90EC1AB18E0C0093758E /* AppDelegate.m */; };
+		908D90EF1AB18E0C0093758E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 908D90ED1AB18E0C0093758E /* ViewController.m */; };
+		908D90F21AB18E610093758E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908D90F01AB18E610093758E /* Main.storyboard */; };
+		908D90F41AB18E700093758E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 908D90F31AB18E700093758E /* Images.xcassets */; };
+		908D90F71AB18E8F0093758E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 908D90F51AB18E8F0093758E /* LaunchScreen.xib */; };
+		908D90F91AB18E990093758E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 908D90F81AB18E990093758E /* main.m */; };
+		908D90FF1AB18F460093758E /* EnmlConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 908D90FE1AB18F460093758E /* EnmlConverter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		908D90DB1AB187930093758E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 908D90B91AB187930093758E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908D90C01AB187930093758E;
+			remoteInfo = EnmlConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E200F9694911D5E84969F5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA7F314C454C8E9CC33DD85 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		908D90C11AB187930093758E /* EnmlConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnmlConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		908D90DA1AB187930093758E /* EnmlConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnmlConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		908D90DF1AB187930093758E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908D90E01AB187930093758E /* EnmlConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnmlConverterTests.m; sourceTree = "<group>"; };
+		908D90EA1AB18E0C0093758E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EnmlConverterExample/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		908D90EB1AB18E0C0093758E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = EnmlConverterExample/ViewController.h; sourceTree = SOURCE_ROOT; };
+		908D90EC1AB18E0C0093758E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EnmlConverterExample/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		908D90ED1AB18E0C0093758E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = EnmlConverterExample/ViewController.m; sourceTree = SOURCE_ROOT; };
+		908D90F11AB18E610093758E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = EnmlConverterExample/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		908D90F31AB18E700093758E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EnmlConverterExample/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		908D90F61AB18E8F0093758E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = EnmlConverterExample/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		908D90F81AB18E990093758E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EnmlConverterExample/main.m; sourceTree = SOURCE_ROOT; };
+		908D90FA1AB18EA00093758E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EnmlConverterExample/Info.plist; sourceTree = SOURCE_ROOT; };
+		908D90FD1AB18F460093758E /* EnmlConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnmlConverter.h; sourceTree = "<group>"; };
+		908D90FE1AB18F460093758E /* EnmlConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnmlConverter.m; sourceTree = "<group>"; };
+		9B7EC4366F771D9A5D4E427D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908D90BE1AB187930093758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77209EF2D330A05717F3174A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908D90D71AB187930093758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		908D90B81AB187930093758E = {
+			isa = PBXGroup;
+			children = (
+				908D90FC1AB18F330093758E /* EnmlConverter */,
+				908D90C31AB187930093758E /* EnmlConverterExample */,
+				908D90DD1AB187930093758E /* EnmlConverterTests */,
+				908D90C21AB187930093758E /* Products */,
+				C77BA12A168C6E76FBF9F823 /* Pods */,
+				E63A907B1FA485D06B7FA3EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		908D90C21AB187930093758E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				908D90C11AB187930093758E /* EnmlConverter.app */,
+				908D90DA1AB187930093758E /* EnmlConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908D90C31AB187930093758E /* EnmlConverterExample */ = {
+			isa = PBXGroup;
+			children = (
+				908D90EA1AB18E0C0093758E /* AppDelegate.h */,
+				908D90EC1AB18E0C0093758E /* AppDelegate.m */,
+				908D90EB1AB18E0C0093758E /* ViewController.h */,
+				908D90ED1AB18E0C0093758E /* ViewController.m */,
+				908D90F01AB18E610093758E /* Main.storyboard */,
+				908D90F31AB18E700093758E /* Images.xcassets */,
+				908D90F51AB18E8F0093758E /* LaunchScreen.xib */,
+				908D90C41AB187930093758E /* Supporting Files */,
+			);
+			name = EnmlConverterExample;
+			path = EnmlConverter;
+			sourceTree = "<group>";
+		};
+		908D90C41AB187930093758E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				908D90FA1AB18EA00093758E /* Info.plist */,
+				908D90F81AB18E990093758E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		908D90DD1AB187930093758E /* EnmlConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				908D90E01AB187930093758E /* EnmlConverterTests.m */,
+				908D90DE1AB187930093758E /* Supporting Files */,
+			);
+			path = EnmlConverterTests;
+			sourceTree = "<group>";
+		};
+		908D90DE1AB187930093758E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				908D90DF1AB187930093758E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		908D90FC1AB18F330093758E /* EnmlConverter */ = {
+			isa = PBXGroup;
+			children = (
+				908D90FD1AB18F460093758E /* EnmlConverter.h */,
+				908D90FE1AB18F460093758E /* EnmlConverter.m */,
+			);
+			path = EnmlConverter;
+			sourceTree = "<group>";
+		};
+		C77BA12A168C6E76FBF9F823 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CA7F314C454C8E9CC33DD85 /* Pods.debug.xcconfig */,
+				9B7EC4366F771D9A5D4E427D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E63A907B1FA485D06B7FA3EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E200F9694911D5E84969F5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		908D90C01AB187930093758E /* EnmlConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908D90E41AB187930093758E /* Build configuration list for PBXNativeTarget "EnmlConverter" */;
+			buildPhases = (
+				B740C5086C0F9D1D49B7D868 /* Check Pods Manifest.lock */,
+				908D90BD1AB187930093758E /* Sources */,
+				908D90BE1AB187930093758E /* Frameworks */,
+				908D90BF1AB187930093758E /* Resources */,
+				C0CD638B105AB5B4FDF4DD8A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnmlConverter;
+			productName = EnmlConverter;
+			productReference = 908D90C11AB187930093758E /* EnmlConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		908D90D91AB187930093758E /* EnmlConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908D90E71AB187930093758E /* Build configuration list for PBXNativeTarget "EnmlConverterTests" */;
+			buildPhases = (
+				908D90D61AB187930093758E /* Sources */,
+				908D90D71AB187930093758E /* Frameworks */,
+				908D90D81AB187930093758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908D90DC1AB187930093758E /* PBXTargetDependency */,
+			);
+			name = EnmlConverterTests;
+			productName = EnmlConverterTests;
+			productReference = 908D90DA1AB187930093758E /* EnmlConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		908D90B91AB187930093758E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = SenseForce;
+				TargetAttributes = {
+					908D90C01AB187930093758E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					908D90D91AB187930093758E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 908D90C01AB187930093758E;
+					};
+				};
+			};
+			buildConfigurationList = 908D90BC1AB187930093758E /* Build configuration list for PBXProject "EnmlConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 908D90B81AB187930093758E;
+			productRefGroup = 908D90C21AB187930093758E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				908D90C01AB187930093758E /* EnmlConverter */,
+				908D90D91AB187930093758E /* EnmlConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		908D90BF1AB187930093758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908D90F41AB18E700093758E /* Images.xcassets in Resources */,
+				908D90F71AB18E8F0093758E /* LaunchScreen.xib in Resources */,
+				908D90F21AB18E610093758E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908D90D81AB187930093758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B740C5086C0F9D1D49B7D868 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0CD638B105AB5B4FDF4DD8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		908D90BD1AB187930093758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908D90EE1AB18E0C0093758E /* AppDelegate.m in Sources */,
+				908D90F91AB18E990093758E /* main.m in Sources */,
+				908D90FF1AB18F460093758E /* EnmlConverter.m in Sources */,
+				908D90EF1AB18E0C0093758E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908D90D61AB187930093758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908D90E11AB187930093758E /* EnmlConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		908D90DC1AB187930093758E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908D90C01AB187930093758E /* EnmlConverter */;
+			targetProxy = 908D90DB1AB187930093758E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		908D90F01AB18E610093758E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908D90F11AB18E610093758E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		908D90F51AB18E8F0093758E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908D90F61AB18E8F0093758E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		908D90E21AB187930093758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		908D90E31AB187930093758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		908D90E51AB187930093758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA7F314C454C8E9CC33DD85 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/EnmlConverterExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		908D90E61AB187930093758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7EC4366F771D9A5D4E427D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/EnmlConverterExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		908D90E81AB187930093758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnmlConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnmlConverter.app/EnmlConverter";
+			};
+			name = Debug;
+		};
+		908D90E91AB187930093758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EnmlConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnmlConverter.app/EnmlConverter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908D90BC1AB187930093758E /* Build configuration list for PBXProject "EnmlConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908D90E21AB187930093758E /* Debug */,
+				908D90E31AB187930093758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908D90E41AB187930093758E /* Build configuration list for PBXNativeTarget "EnmlConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908D90E51AB187930093758E /* Debug */,
+				908D90E61AB187930093758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		908D90E71AB187930093758E /* Build configuration list for PBXNativeTarget "EnmlConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908D90E81AB187930093758E /* Debug */,
+				908D90E91AB187930093758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 908D90B91AB187930093758E /* Project object */;
+}
